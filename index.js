@@ -23,6 +23,7 @@ function switchTheme(theme){
     document.querySelector('main').className = theme;
 
     const buttons = document.querySelectorAll('button');
+
     console.log(buttons)
 
     buttons.forEach(button => button.className = theme)
